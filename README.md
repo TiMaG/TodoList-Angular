@@ -1,6 +1,6 @@
-Angular TodoList v2
+Angular TodoList 
 
-Angular TodoList v2 is a simple web application built with Angular that allows users to manage their tasks and create to-do lists. It provides an intuitive user interface where users can add, update, and delete tasks, as well as mark tasks as completed.
+Angular TodoList  is a simple web application built with Angular that allows users to manage their tasks and create to-do lists. It provides an intuitive user interface where users can add, update, and delete tasks, as well as mark tasks as completed.
 Features
 
     Add new tasks with a title and optional description.
@@ -22,19 +22,11 @@ The following user stories are implemented in this application:
 
 Getting Started
 
-To get started with the Angular TodoList v2 application, follow these steps:
-
-    Clone the repository:
-
-    shell
-
-git clone https://github.com/zhd-dm/angular-todolist-v2.git
-
 Navigate to the project directory:
 
 shell
 
-cd angular-todolist-v2
+cd angular-todolist
 
 Install the dependencies:
 
@@ -62,5 +54,4 @@ The Angular TodoList v2 application utilizes the following technologies:
 
 Contributions
 
-Contributions to the Angular TodoList v2 project are welcome. If you find any bugs or have suggestions for improvements, please feel free to open an issue or submit a pull request.
-License
+Contributions to the Angular TodoList  project are welcome. If you find any bugs or have suggestions for improvements, please feel free to open an issue or submit a pull request.

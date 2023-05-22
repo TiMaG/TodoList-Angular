@@ -1,0 +1,45 @@
+@import './assets/css/colors.scss';
+@import './assets/css/sizes.scss';
+@import './assets/css/utils.scss';
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    background-color: var(--color-basic);
+}
+
+.main-container {
+	padding: 0 100px;
+}
+
+.table-list {
+    width: 100%;
+    padding: 30px;
+}
+
+.form-group {
+    max-width: 30%;
+    border-radius: 10px;
+    border: 2px solid var(--color-accent);
+    background-color: var(--color-primary);
+    margin: 50px auto;
+    padding: 20px;
+
+    .mat-title {
+        color: var(--color-accent);
+    }
+}
+
+.form-group__modal {
+    background: none;
+    max-width: 300px;
+    border: none;
+    padding: 0;
+    margin: 0;
+}

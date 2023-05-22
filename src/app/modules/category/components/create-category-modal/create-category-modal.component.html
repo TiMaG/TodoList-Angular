@@ -1,0 +1,16 @@
+<form
+	[formGroup]="form"
+	class="form-group form-group__modal flex-column">
+    <div class="mat-title">{{ TEMPLATE_TEXT.createNewCategory }}</div>
+
+    <mat-form-field color="accent" appearance="outline">
+        <mat-label>{{ TEMPLATE_TEXT.categoryName }}</mat-label>
+        <input type="text" matInput formControlName="name" [placeholder]="TEMPLATE_TEXT.categoryName">
+    </mat-form-field>
+	<ui-button
+		type="submit"
+		[disabled]="form.invalid"
+		[label]="TEMPLATE_TEXT.create"
+		(buttonClick)="createCategory()"
+	></ui-button>
+</form>
